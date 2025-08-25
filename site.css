@@ -1,0 +1,158 @@
+header{
+    background-color: rgb(255, 246, 125);
+   padding: 13px;
+    display: flex; 
+    justify-content: space-between; 
+}
+header a {  
+    color: #000000;
+  text-decoration: none;
+}
+header input {
+    width: 200px;
+    height: 40px;
+     border-radius: 10px;    
+}
+header a:hover{
+     color: #2a4e74;
+
+}
+header input:hover{
+   width: 220px;
+}
+.parte1{
+    padding: 0% 2% ;
+    width: 50%;
+    display: flex;
+    gap: 30px;  
+}
+.parte2{
+    width: 50%;
+    display: flex;
+    gap: 10%;
+    padding: 0% 2%;
+    flex-direction: row-reverse;
+}
+.parte2 img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.parte2 i{
+    align-content: center;
+}
+.parte3{
+    display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 100px;
+}
+/* .header */
+
+
+
+footer > div:first-of-type {
+    display: flex;
+    gap: 100px;
+   background-color: #34495e;
+}
+footer{
+    color: #ffffff;
+}
+footer h3 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    color: #ffffff;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+    color: #ffffff;
+}
+footer a{
+    color: #000000;
+}
+footer a:hover {
+    color: #1900ff;
+}
+footer form {
+    display: flex;
+
+}
+footer form button {
+    background-color: #f1c40f;
+    border: none;
+    padding: 10px 15px;
+}
+footer form button:hover {
+    background-color: #e6b100;
+}
+footer > div:last-of-type {
+    text-align: center; 
+    border-top: 2px solid #000000;
+     background-color: #34495e;
+     padding: 7px 60px;
+}
+/* .foteer */
+
+
+
+body{
+    background-color: rgb(206, 233, 233);
+    margin: 0;
+    padding: 0;
+     background-image: url(https://cdn.shopify.com/s/files/1/0070/7032/articles/dropshipping_8c9e0b33-8c94-47bb-b4c9-ceb42d2cdb0c.png?v=1754067505);
+     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+}
+.container{
+    display: flex;
+    gap: 5%;
+    flex-wrap: wrap;
+    padding: 10px 57px;
+    row-gap: 10px;
+}
+.cards{
+    background-color: rgb(201, 201, 201);
+    border: 1px solid rgb(0, 0, 0);
+  
+    width: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+    border-radius: 10px;
+}
+.cards img{
+    height: 150px;
+    border-radius: 10px;
+}
+.preco{
+    font-size: 20px;
+    margin: 5px 0px;
+    font-weight: bold;
+}
+.parcelamento{
+     font-size: 16px;
+    margin: 5px 0px;
+    color: blue;
+}
+nav{
+    position: sticky;
+    top: 0;
+}
+.btn{
+     padding: 4px 65px;
+            background-color: #ffffff;
+            border-radius: 10px;
+}
+ .btn a{
+            color: #000000;
+               text-decoration: none;
+        }
+.btn:hover{
+  background-color: #7c7c7c;
+  
+}
